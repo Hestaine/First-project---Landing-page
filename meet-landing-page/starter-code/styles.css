@@ -203,3 +203,16 @@ span {
   font-weight: 500;
   line-height: 26px;
 }
+
+.footer {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    url(./assets/desktop/bg-pattern-footer.svg),
+    blue
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
