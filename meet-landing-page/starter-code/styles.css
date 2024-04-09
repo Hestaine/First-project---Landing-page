@@ -10,6 +10,7 @@
 
 body {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 /* Removing the desktop image */
@@ -33,4 +34,19 @@ main {
 
 .logo {
   margin: 1rem auto;
+}
+
+.hero {
+  width: 405px;
+  transform: translateX(-19px);
+}
+
+.group-chat > h2 {
+  color: #28283d;
+  text-align: center;
+  font-family: "Red Hat Display";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 44px;
 }
