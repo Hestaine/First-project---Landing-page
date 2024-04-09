@@ -138,8 +138,9 @@ span {
 
 .imgs {
   display: grid;
-  grid-gap: 1.4rem;
   margin: 1rem auto;
+  grid-row-gap: 0.8rem;
+  grid-column-gap: 0.7rem;
   grid-template-columns: repeat(2, 180px);
   grid-template-rows: repeat(2, 180px);
 }
@@ -165,8 +166,8 @@ span {
 }
 
 .built-img {
-  width: 160px;
-  height: 160px;
+  width: 150px;
+  height: 150px;
   border-radius: 10px;
 }
 
