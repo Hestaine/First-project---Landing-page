@@ -139,6 +139,7 @@ span {
 .imgs {
   display: grid;
   grid-gap: 1.8rem;
+  margin: 1rem auto;
   grid-template-columns: repeat(2, 180px);
   grid-template-rows: repeat(2, 180px);
 }
@@ -209,10 +210,10 @@ span {
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(
-      rgba(18, 18, 218, 0.2),
-      rgba(19, 19, 226, 0.2)
+      rgba(18, 18, 218, 0.4),
+      rgba(19, 19, 226, 0.4)
     ),
-    url(./assets/desktop/bg-pattern-footer.svg);
+    url(./assets/mobile/image-footer.jpg);
   /* background-repeat: no-repeat;
   background-size: cover; */
   background-blend-mode: overlay;
