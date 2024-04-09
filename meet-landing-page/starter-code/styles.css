@@ -131,7 +131,7 @@ span {
 }
 
 .built-for {
-  gap: 1rem;
+  gap: 2.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -167,4 +167,39 @@ span {
   width: 180px;
   height: 180px;
   border-radius: 10px;
+}
+
+.built-for-text {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.buit-for-text > h4 {
+  color: #4d96a9;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 2rem;
+}
+
+.buit-for-text > h3 {
+  color: #28283d;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 900;
+  line-height: 36px;
+  margin-bottom: 2rem;
+}
+
+.buit-for-text > p {
+  width: 327px;
+  color: #87879d;
+  font-size: 16px;
+  /* text-indent: 10px; */
+  text-align: center;
+  font-weight: 500;
+  line-height: 26px;
 }
