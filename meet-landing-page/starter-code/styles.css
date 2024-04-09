@@ -65,3 +65,12 @@ main {
   font-weight: 500;
   line-height: 21px;
 }
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  cursor: pointer;
+}
