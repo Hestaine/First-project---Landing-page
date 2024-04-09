@@ -56,3 +56,12 @@ main {
   font-weight: 900;
   line-height: 55px;
 }
+
+.chat-info {
+  color: #87879d;
+  text-indent: 3px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+}
