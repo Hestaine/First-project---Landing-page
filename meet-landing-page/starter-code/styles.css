@@ -74,3 +74,23 @@ main {
   gap: 1rem;
   cursor: pointer;
 }
+
+button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  border-radius: 29px;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #855fb1;
+}
+
+.download-button {
+  background-color: #4d96a9;
+}
+
+span {
+  color: #8fe3f9;
+  font-size: 16px;
+  font-weight: 900;
+}
