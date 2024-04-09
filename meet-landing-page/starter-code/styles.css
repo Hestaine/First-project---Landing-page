@@ -204,7 +204,7 @@ span {
 
 .buit-p {
   width: 327px;
-  color: #87879d;
+  color: rgba(135, 135, 157, 0.5);
   font-size: 16px;
   /* text-indent: 10px; */
   text-align: center;
@@ -336,13 +336,7 @@ span {
 
 @media screen and (min-width: 1024px) {
   .hero-left {
-    display: block;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
   }
   .hero-right {
-    display: block;
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
   }
 }
