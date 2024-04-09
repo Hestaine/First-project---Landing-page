@@ -139,10 +139,10 @@ span {
 .imgs {
   display: grid;
   margin: 1rem auto;
-  grid-row-gap: 0.8rem;
-  grid-column-gap: 0.7rem;
-  grid-template-columns: repeat(2, 180px);
-  grid-template-rows: repeat(2, 180px);
+  grid-column-gap: 1.2rem;
+  grid-row-gap: 1.4rem;
+  grid-template-columns: repeat(2, 150px);
+  grid-template-rows: repeat(2, 150px);
 }
 
 .built-img1 {
