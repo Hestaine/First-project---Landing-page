@@ -209,10 +209,11 @@ span {
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(
-    url(./assets/desktop/bg-pattern-footer.svg),
-    blue
-  );
-  background-repeat: no-repeat;
-  background-size: cover;
+      rgba(18, 18, 218, 0.2),
+      rgba(19, 19, 226, 0.2)
+    ),
+    url(./assets/desktop/bg-pattern-footer.svg);
+  /* background-repeat: no-repeat;
+  background-size: cover; */
   background-blend-mode: overlay;
 }
