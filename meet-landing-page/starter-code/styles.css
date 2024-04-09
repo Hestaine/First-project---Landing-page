@@ -94,3 +94,22 @@ span {
   font-size: 16px;
   font-weight: 900;
 }
+
+.line {
+  width: 1px;
+  height: 84px;
+  background-color: #87879d;
+  opacity: 0.25;
+}
+
+.circle {
+  width: 56px;
+  height: 56px;
+  background-color: transparent;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 50%;
+}
+
+.number-divide {
+  margin: 1rem auto;
+}
