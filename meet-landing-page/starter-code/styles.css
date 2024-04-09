@@ -316,6 +316,7 @@ span {
   .built-p {
     width: 34rem;
     margin: 0 auto;
+    color: #6e6e72;
     font-size: 1rem;
     line-height: 1.625rem;
   }
@@ -345,11 +346,42 @@ span {
   }
   .hero-left {
     display: block;
+    transform: translateX(-50px);
   }
   .hero-right {
     display: block;
+    transform: translateX(50px);
   }
   .img-change {
     display: flex;
+  }
+  .built-p {
+    width: 28rem;
+  }
+  .number-divide2 {
+    left: 41rem;
+  }
+  .footer {
+    height: 18rem;
+  }
+  .overlay {
+    height: 18rem;
+  }
+  .footer-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .footer-content > h3 {
+    width: 20rem;
+    text-align: left;
+  }
+  .footer-content > p {
+    width: 20rem;
+    text-align: left;
+  }
+  .download-button2 {
+    height: 3rem;
+    width: 11rem;
   }
 }
