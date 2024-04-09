@@ -129,3 +129,42 @@ span {
   position: relative;
   align-items: flex-end;
 }
+
+.built-for {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgs {
+  display: grid;
+  grid-gap: 1.8rem;
+  grid-template-columns: repeat(2, 180px);
+  grid-template-rows: repeat(2, 180px);
+}
+
+.built-img1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.built-img2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.built-img3 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.built-img4 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.built-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+}
