@@ -7,6 +7,7 @@
   box-sizing: border-box;
   font-style: normal;
   font-family: "Red Hat Display", sans-serif;
+  text-align: center;
 }
 
 body {
@@ -55,6 +56,10 @@ main {
   font-size: 50px;
   font-weight: 900;
   line-height: 55px;
+}
+
+p {
+  margin: 1rem auto;
 }
 
 .chat-info {
@@ -208,14 +213,67 @@ span {
 
 .footer {
   gap: 1.5rem;
+  z-index: 10;
+  color: #fafafa;
+  display: flex;
+  height: 28rem;
+  position: relative;
+  margin-top: 8rem;
+  padding-bottom: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./assets/mobile/image-footer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  z-index: 5;
+  width: 90rem;
+  height: 28rem;
+  position: absolute;
+  top: 0;
+  background-color: rgba(41, 118, 133, 0.9);
+}
+
+.number-divide2 {
+  z-index: 12;
+  top: -130px;
+  left: 157px;
+  position: absolute;
+}
+
+.circle2 {
+  background-color: #fafafa;
+}
+
+.footer-content {
+  z-index: 10;
+  gap: 1rem;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(
-      rgba(18, 18, 218, 0.4),
-      rgba(19, 19, 226, 0.4)
-    ),
-    url(./assets/mobile/image-footer.jpg);
-  /* background-repeat: no-repeat;
-  background-size: cover; */
-  background-blend-mode: overlay;
+}
+
+.footer-content > h3 {
+  color: #fafafa;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 2.25rem;
+}
+
+.footer-content > p {
+  color: #fafafa;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.625rem;
+}
+
+.download-button2 {
+  width: 12rem;
+  margin: 0 auto;
+}
+
+.download-button2 > span {
+  color: #d9b8ff;
 }
